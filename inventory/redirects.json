@@ -1,0 +1,191 @@
+{
+  "live_probes": {
+    "https://sunsetstrings.com/": {
+      "requested": "https://sunsetstrings.com/",
+      "status": 200,
+      "final_url": "https://www.sunsetstrings.com/",
+      "content_type": "text/html;charset=utf-8",
+      "chain": [
+        {
+          "url": "https://sunsetstrings.com/",
+          "status": 301,
+          "location": "https://www.sunsetstrings.com/",
+          "content_type": ""
+        },
+        {
+          "url": "https://www.sunsetstrings.com/",
+          "status": 200,
+          "location": "",
+          "content_type": "text/html;charset=utf-8"
+        }
+      ],
+      "x_robots": ""
+    },
+    "http://sunsetstrings.com/": {
+      "error": "timed out"
+    },
+    "http://www.sunsetstrings.com/": {
+      "error": "timed out",
+      "note": "The full-body probe timed out. A later HEAD returned HTTP 200 and no Location header."
+    },
+    "https://www.sunsetstrings.com/": {
+      "requested": "https://www.sunsetstrings.com/",
+      "status": 200,
+      "final_url": "https://www.sunsetstrings.com/",
+      "content_type": "text/html;charset=utf-8",
+      "chain": [
+        {
+          "url": "https://www.sunsetstrings.com/",
+          "status": 200,
+          "location": "",
+          "content_type": "text/html;charset=utf-8"
+        }
+      ],
+      "x_robots": ""
+    },
+    "https://www.sunsetstrings.com/lessons": {
+      "requested": "https://www.sunsetstrings.com/lessons",
+      "status": 404,
+      "final_url": "https://www.sunsetstrings.com/lessons",
+      "content_type": "text/html;charset=utf-8",
+      "chain": [
+        {
+          "url": "https://www.sunsetstrings.com/lessons",
+          "status": 404,
+          "location": "",
+          "content_type": "text/html;charset=utf-8"
+        }
+      ],
+      "x_robots": ""
+    },
+    "https://www.sunsetstrings.com/more": {
+      "requested": "https://www.sunsetstrings.com/more",
+      "status": 200,
+      "final_url": "https://www.sunsetstrings.com/blog",
+      "content_type": "text/html;charset=utf-8",
+      "chain": [
+        {
+          "url": "https://www.sunsetstrings.com/more",
+          "status": 302,
+          "location": "https://www.sunsetstrings.com/blog",
+          "content_type": ""
+        },
+        {
+          "url": "https://www.sunsetstrings.com/blog",
+          "status": 200,
+          "location": "",
+          "content_type": "text/html;charset=utf-8"
+        }
+      ],
+      "x_robots": ""
+    },
+    "https://www.sunsetstrings.com/audio": {
+      "requested": "https://www.sunsetstrings.com/audio",
+      "status": 200,
+      "final_url": "https://www.sunsetstrings.com/quartet",
+      "content_type": "text/html;charset=utf-8",
+      "chain": [
+        {
+          "url": "https://www.sunsetstrings.com/audio",
+          "status": 302,
+          "location": "https://www.sunsetstrings.com/quartet",
+          "content_type": ""
+        },
+        {
+          "url": "https://www.sunsetstrings.com/quartet",
+          "status": 200,
+          "location": "",
+          "content_type": "text/html;charset=utf-8"
+        }
+      ],
+      "x_robots": ""
+    },
+    "https://www.sunsetstrings.com/checkout": {
+      "requested": "https://www.sunsetstrings.com/checkout",
+      "status": 200,
+      "final_url": "https://www.sunsetstrings.com/cart",
+      "content_type": "text/html;charset=utf-8",
+      "chain": [
+        {
+          "url": "https://www.sunsetstrings.com/checkout",
+          "status": 302,
+          "location": "https://www.sunsetstrings.com/cart",
+          "content_type": ""
+        },
+        {
+          "url": "https://www.sunsetstrings.com/cart",
+          "status": 200,
+          "location": "",
+          "content_type": "text/html;charset=utf-8"
+        }
+      ],
+      "x_robots": ""
+    },
+    "https://www.sunsetstrings.com/account": {
+      "requested": "https://www.sunsetstrings.com/account",
+      "status": 200,
+      "final_url": "https://www.sunsetstrings.com/?userAccountPath=&noredirect=&redacted=1",
+      "content_type": "text/html;charset=utf-8",
+      "chain": [
+        {
+          "url": "https://www.sunsetstrings.com/account",
+          "status": 307,
+          "location": "https://www.sunsetstrings.com/?userAccountPath=&noredirect=&redacted=1",
+          "content_type": "text/html;charset=utf-8"
+        },
+        {
+          "url": "https://www.sunsetstrings.com/?userAccountPath=&noredirect=&redacted=1",
+          "status": 200,
+          "location": "",
+          "content_type": "text/html;charset=utf-8"
+        }
+      ],
+      "x_robots": ""
+    },
+    "https://sunsetstrings.squarespace.com/": {
+      "requested": "https://sunsetstrings.squarespace.com/",
+      "status": 200,
+      "final_url": "https://sunsetstrings.squarespace.com/",
+      "content_type": "text/html;charset=utf-8",
+      "chain": [
+        {
+          "url": "https://sunsetstrings.squarespace.com/",
+          "status": 200,
+          "location": "",
+          "content_type": "text/html;charset=utf-8"
+        }
+      ],
+      "x_robots": ""
+    },
+    "https://www.sunsetstrings.com/blog?format=rss": {
+      "requested": "https://www.sunsetstrings.com/blog?format=rss",
+      "status": 200,
+      "final_url": "https://www.sunsetstrings.com/blog?format=rss",
+      "content_type": "application/rss+xml; charset=UTF-8",
+      "chain": [
+        {
+          "url": "https://www.sunsetstrings.com/blog?format=rss",
+          "status": 200,
+          "location": "",
+          "content_type": "application/rss+xml; charset=UTF-8"
+        }
+      ],
+      "x_robots": ""
+    },
+    "https://www.sunsetstrings.com/config": {
+      "status": 302,
+      "location_host": "www.sunsetstrings.com",
+      "note": "Full redirect URL was not stored because it carries a request-specific OAuth state."
+    },
+    "dns_ns": [
+      "dee.ns.cloudflare.com.",
+      "devin.ns.cloudflare.com."
+    ]
+  },
+  "fetched_redirects": [
+    "# Path aliases observed on the live site. Host-level apex/www rules are documented, not emulated here.",
+    "/more /blog 302",
+    "/audio /quartet 302",
+    "/checkout /cart 302"
+  ]
+}

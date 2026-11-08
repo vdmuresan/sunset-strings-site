@@ -1,0 +1,200 @@
+{
+  "started_at": "2026-11-08T23:44:38Z",
+  "generated_at": "2026-11-08T23:44:52Z",
+  "source": "https://www.sunsetstrings.com",
+  "method": "Public GET of sitemap, robots, HTML, RSS, and CDN assets. No Squarespace login, no Cloudflare account, no form posts.",
+  "robots": "# Squarespace Robots Txt\n\nUser-agent: AI2Bot\nUser-agent: Ai2Bot-Dolma\nUser-agent: aiHitBot\nUser-agent: Amazonbot\nUser-agent: anthropic-ai\nUser-agent: Applebot-Extended\nUser-agent: Bytespider\nUser-agent: CCBot\nUser-agent: ClaudeBot\nUser-agent: cohere-ai\nUser-agent: cohere-training-data-crawler\nUser-agent: DuckAssistBot\nUser-agent: FacebookBot\nUser-agent: Google-Extended\nUser-agent: GoogleOther\nUser-agent: GoogleOther-Image\nUser-agent: GoogleOther-Video\nUser-agent: GPTBot\nUser-agent: img2dataset\nUser-agent: Meta-ExternalAgent\nUser-agent: MyCentralAIScraperBot\nUser-agent: omgili\nUser-agent: omgilibot\nUser-agent: Quora-Bot\nUser-agent: TikTokSpider\nUser-agent: YouBot\nUser-agent: AdsBot-Google\nUser-agent: AdsBot-Google-Mobile\nUser-agent: AdsBot-Google-Mobile-Apps\nUser-agent: *\nDisallow: /config\nDisallow: /search\nDisallow: /account$\nDisallow: /account/\nDisallow: /commerce/digital-download/\nDisallow: /api/\nAllow: /api/ui-extensions/\nDisallow: /static/\nDisallow:/*?author=*\nDisallow:/*&author=*\nDisallow:/*?tag=*\nDisallow:/*&tag=*\nDisallow:/*?month=*\nDisallow:/*&month=*\nDisallow:/*?view=*\nDisallow:/*&view=*\nDisallow:/*?format=json\nDisallow:/*&format=json\nDisallow:/*?format=page-context\nDisallow:/*&format=page-context\nDisallow:/*?format=main-content\nDisallow:/*&format=main-content\nDisallow:/*?format=json-pretty\nDisallow:/*&format=json-pretty\nDisallow:/*?format=ical\nDisallow:/*&format=ical\nDisallow:/*?reversePaginate=*\nDisallow:/*&reversePaginate=*\n\nSitemap: https://www.sunsetstrings.com/sitemap.xml\n",
+  "probes": {
+    "https://sunsetstrings.com/": {
+      "requested": "https://sunsetstrings.com/",
+      "status": 200,
+      "final_url": "https://www.sunsetstrings.com/",
+      "content_type": "text/html;charset=utf-8",
+      "chain": [
+        {
+          "url": "https://sunsetstrings.com/",
+          "status": 301,
+          "location": "https://www.sunsetstrings.com/",
+          "content_type": ""
+        },
+        {
+          "url": "https://www.sunsetstrings.com/",
+          "status": 200,
+          "location": "",
+          "content_type": "text/html;charset=utf-8"
+        }
+      ],
+      "x_robots": ""
+    },
+    "http://sunsetstrings.com/": {
+      "error": "timed out"
+    },
+    "http://www.sunsetstrings.com/": {
+      "error": "timed out",
+      "note": "The full-body probe timed out. A later HEAD returned HTTP 200 and no Location header."
+    },
+    "https://www.sunsetstrings.com/": {
+      "requested": "https://www.sunsetstrings.com/",
+      "status": 200,
+      "final_url": "https://www.sunsetstrings.com/",
+      "content_type": "text/html;charset=utf-8",
+      "chain": [
+        {
+          "url": "https://www.sunsetstrings.com/",
+          "status": 200,
+          "location": "",
+          "content_type": "text/html;charset=utf-8"
+        }
+      ],
+      "x_robots": ""
+    },
+    "https://www.sunsetstrings.com/lessons": {
+      "requested": "https://www.sunsetstrings.com/lessons",
+      "status": 404,
+      "final_url": "https://www.sunsetstrings.com/lessons",
+      "content_type": "text/html;charset=utf-8",
+      "chain": [
+        {
+          "url": "https://www.sunsetstrings.com/lessons",
+          "status": 404,
+          "location": "",
+          "content_type": "text/html;charset=utf-8"
+        }
+      ],
+      "x_robots": ""
+    },
+    "https://www.sunsetstrings.com/more": {
+      "requested": "https://www.sunsetstrings.com/more",
+      "status": 200,
+      "final_url": "https://www.sunsetstrings.com/blog",
+      "content_type": "text/html;charset=utf-8",
+      "chain": [
+        {
+          "url": "https://www.sunsetstrings.com/more",
+          "status": 302,
+          "location": "https://www.sunsetstrings.com/blog",
+          "content_type": ""
+        },
+        {
+          "url": "https://www.sunsetstrings.com/blog",
+          "status": 200,
+          "location": "",
+          "content_type": "text/html;charset=utf-8"
+        }
+      ],
+      "x_robots": ""
+    },
+    "https://www.sunsetstrings.com/audio": {
+      "requested": "https://www.sunsetstrings.com/audio",
+      "status": 200,
+      "final_url": "https://www.sunsetstrings.com/quartet",
+      "content_type": "text/html;charset=utf-8",
+      "chain": [
+        {
+          "url": "https://www.sunsetstrings.com/audio",
+          "status": 302,
+          "location": "https://www.sunsetstrings.com/quartet",
+          "content_type": ""
+        },
+        {
+          "url": "https://www.sunsetstrings.com/quartet",
+          "status": 200,
+          "location": "",
+          "content_type": "text/html;charset=utf-8"
+        }
+      ],
+      "x_robots": ""
+    },
+    "https://www.sunsetstrings.com/checkout": {
+      "requested": "https://www.sunsetstrings.com/checkout",
+      "status": 200,
+      "final_url": "https://www.sunsetstrings.com/cart",
+      "content_type": "text/html;charset=utf-8",
+      "chain": [
+        {
+          "url": "https://www.sunsetstrings.com/checkout",
+          "status": 302,
+          "location": "https://www.sunsetstrings.com/cart",
+          "content_type": ""
+        },
+        {
+          "url": "https://www.sunsetstrings.com/cart",
+          "status": 200,
+          "location": "",
+          "content_type": "text/html;charset=utf-8"
+        }
+      ],
+      "x_robots": ""
+    },
+    "https://www.sunsetstrings.com/account": {
+      "requested": "https://www.sunsetstrings.com/account",
+      "status": 200,
+      "final_url": "https://www.sunsetstrings.com/?userAccountPath=&noredirect=&redacted=1",
+      "content_type": "text/html;charset=utf-8",
+      "chain": [
+        {
+          "url": "https://www.sunsetstrings.com/account",
+          "status": 307,
+          "location": "https://www.sunsetstrings.com/?userAccountPath=&noredirect=&redacted=1",
+          "content_type": "text/html;charset=utf-8"
+        },
+        {
+          "url": "https://www.sunsetstrings.com/?userAccountPath=&noredirect=&redacted=1",
+          "status": 200,
+          "location": "",
+          "content_type": "text/html;charset=utf-8"
+        }
+      ],
+      "x_robots": ""
+    },
+    "https://sunsetstrings.squarespace.com/": {
+      "requested": "https://sunsetstrings.squarespace.com/",
+      "status": 200,
+      "final_url": "https://sunsetstrings.squarespace.com/",
+      "content_type": "text/html;charset=utf-8",
+      "chain": [
+        {
+          "url": "https://sunsetstrings.squarespace.com/",
+          "status": 200,
+          "location": "",
+          "content_type": "text/html;charset=utf-8"
+        }
+      ],
+      "x_robots": ""
+    },
+    "https://www.sunsetstrings.com/blog?format=rss": {
+      "requested": "https://www.sunsetstrings.com/blog?format=rss",
+      "status": 200,
+      "final_url": "https://www.sunsetstrings.com/blog?format=rss",
+      "content_type": "application/rss+xml; charset=UTF-8",
+      "chain": [
+        {
+          "url": "https://www.sunsetstrings.com/blog?format=rss",
+          "status": 200,
+          "location": "",
+          "content_type": "application/rss+xml; charset=UTF-8"
+        }
+      ],
+      "x_robots": ""
+    },
+    "https://www.sunsetstrings.com/config": {
+      "status": 302,
+      "location_host": "www.sunsetstrings.com",
+      "note": "Full redirect URL was not stored because it carries a request-specific OAuth state."
+    },
+    "dns_ns": [
+      "dee.ns.cloudflare.com.",
+      "devin.ns.cloudflare.com."
+    ]
+  },
+  "site_id": "62f69923e0afe00d7b94a0aa",
+  "notes": [
+    "Live HTML comment identifies Squarespace and the site identifier sunsetstrings.",
+    "Canonical host is https://www.sunsetstrings.com.",
+    "Public DNS NS is Cloudflare. HTTPS responses include server: cloudflare and a Squarespace crumb cookie.",
+    "https://sunsetstrings.squarespace.com responds with server: Squarespace and canonical https://www.sunsetstrings.com.",
+    "The Cloudflare account was not accessed. Connector authentication was still pending.",
+    "/lessons is listed in the live sitemap and the footer, and the live GET returns 404. Disabled lessons content was not invented or reactivated.",
+    "format=json was not requested. Live robots.txt disallows it."
+  ]
+}
