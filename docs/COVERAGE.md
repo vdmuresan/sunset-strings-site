@@ -9,7 +9,7 @@ Generated 2026-11-08T23:44:52Z from https://www.sunsetstrings.com.
 - Saved HTTP 404 responses: 3
 - RSS feeds saved: 2
 - Deployable route files, excluding the lessons 404 body: 262
-- Localized image files: 908
+- Localized image records: 908, stored as 780 unique files. Sixty-nine records are the Squarespace no-image placeholder.
 - Image download failures: 2
 - Localized CSS files: 15
 - Localized font files: 32

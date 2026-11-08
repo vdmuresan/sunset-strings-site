@@ -16,7 +16,7 @@ The static copy builds and the checked pages render. It is not ready to replace 
 - HTML files in `site/`: 219.
 - Blog tag indexes: 63 first pages. Later `?tag=` pages were not fetched because robots.txt disallows them.
 - Blog offsets captured: 2. Video items: 75. RSS feeds: 2, each with 20 items.
-- Images: 908 local files. Fonts: 32. CSS files: 15.
+- Images: 780 unique files for 908 source URLs. Sixty-nine URLs are Squarespace's no-image placeholder and share one file. Fonts: 32. CSS files: 15.
 - Squarespace platform scripts archived, not served: 33.
 - Internal link check: 20,199 hrefs accounted for.
 

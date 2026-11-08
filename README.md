@@ -27,7 +27,7 @@ HTTPS responses send HSTS `max-age=15552000`. That header is not copied onto thi
 - Sitemap: 211 URLs. Every sitemap URL was fetched. `/lessons` is in the sitemap and returns 404.
 - Unique HTML files in `site/`: 219, including 63 blog tag indexes and 2 blog list pages with `?offset=`.
 - Video items: 75. RSS feeds: `site/feeds/blog.xml` (20 items) and `site/feeds/video.xml` (20 items). The feeds are the live Squarespace feeds, not the full archive. The full post and video HTML is in `site/`.
-- Localized images: 908 files. Two URL failures are a CSS `url(#check)` fragment and a scripts directory, not photographs.
+- Localized images: 780 unique files for 908 source URLs. Sixty-nine of those URLs are Squarespace's `no-image.png` placeholder and share one file. Two URL failures are a CSS `url(#check)` fragment and a scripts directory, not photographs.
 - Localized CSS: 15 files. Fonts: 32 files.
 - Squarespace visitor JavaScript: 33 archival copies in `capture/platform-js/`. The pages still load those scripts from the Squarespace CDN.
 
