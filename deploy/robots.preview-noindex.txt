@@ -1,0 +1,6 @@
+# Optional preview-only robots file.
+# The file served by the copy is site/robots.txt, which matches production.
+# Use this file instead before a public preview on a non-production hostname.
+
+User-agent: *
+Disallow: /

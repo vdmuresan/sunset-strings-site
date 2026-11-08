@@ -1,0 +1,4 @@
+# Path aliases observed on the live site. Host-level apex/www rules are documented, not emulated here.
+/more /blog 302
+/audio /quartet 302
+/checkout /cart 302
